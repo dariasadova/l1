@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int main()
+{
+
+char symbol;
+cout << "введите символ\n";
+cin >> symbol;
+if (symbol >= '0' && symbol <= '9')
+cout << "ОК\n";
+else if (symbol >= 'A' && symbol <= 'Z')
+cout << "ОК\n";
+else
+cout << "NO\n";
+
+}
